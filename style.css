@@ -1,0 +1,353 @@
+body {
+    font-family: "Encode Sans", sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: none;
+  }
+  /*Sessão das classes*/
+  .logo {
+    height: 80px;
+    justify-content: center;
+  }
+  .img-logo {
+    margin: 1.375rem auto;
+  }
+  .flex {
+    display: flex;
+  }
+  .menu {
+    border-top: solid 1px #f4f5f6;
+    border-bottom: solid 1px #f4f5f6;
+    height: 46px;
+  }
+  .menu-opcoes {
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-opcoes h1 {
+    font-weight: 700;
+    font-size: 1.18rem;
+  }
+  .conteudo {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  .manchete {
+    flex-direction: column;
+    margin: 34px 42px 0 0;
+  }
+  .principal h1 {
+    font-weight: 700;
+    font-size: 2.61rem;
+    line-height: 4.18rem;
+    color: #c4160c;
+    margin-bottom: 29px;
+  }
+  .secundaria h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #303134;
+    margin-bottom: 7px;
+  }
+  .borda-horizontal {
+    border-bottom: 1px solid #f5f6f7;
+    margin: 25px 0;
+  }
+  .container {
+    gap: 24px;
+  }
+  .container div {
+    flex-wrap: wrap;
+  }
+  .container img {
+    border-radius: 12px;
+    width: 193px;
+    height: 110px;
+  }
+  .container h1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #c4170c;
+    margin: 11px 0 6px 0;
+  }
+  .container h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2f3134;
+    margin-bottom: 5px;
+  }
+  .container h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2f3134;
+  }
+  .meio {
+    border-left: 1px solid #f5f6f7;
+    border-right: 1px solid #f5f6f7;
+    margin: 36px 35px 0 35px;
+    padding: 0 17px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container-meio div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 25px 25px 25px;
+  }
+  .container-meio img {
+    border-radius: 12px;
+    width: 240px;
+    height: 128px;
+  }
+  .container-meio h1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #16ae54;
+    margin: 11px 0 6px 0;
+  }
+  .container-meio h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2f3134;
+    margin-bottom: 5px;
+  }
+  .container-meio h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2f3134;
+  }
+  .direita {
+    margin: 36px 0px 35px 0px;
+  }
+  .container-direita {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container-direita div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 25px 25px 25px;
+  }
+  .container-direita img {
+    border-radius: 12px;
+    width: 240px;
+    height: 128px;
+  }
+  .container-direita h1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ec8006;
+    margin: 11px 0 6px 0;
+  }
+  .container-direita h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2f3134;
+    margin-bottom: 5px;
+  }
+  .container-direita h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2f3134;
+  }
+  img:hover {
+    opacity: 80%;
+  }
+  
+  /*Sessão dos ID's*/
+  #g1 {
+    color: #c3170c;
+  }
+  #o-globo {
+    color: #1e4b9b;
+  }
+  #valor {
+    color: #006766;
+  }
+  #ge {
+    color: #07aa47;
+  }
+  #cartola {
+    color: #e3662b;
+  }
+  #globoplay {
+    color: #fb0735;
+  }
+  #dropz {
+    color: #ff75bb;
+  }
+  #gshow {
+    color: #ec7d00;
+  }
+  #quem {
+    color: #323333;
+  }
+  #receitas {
+    color: #a81d83;
+  }
+  /*Layout mobile*/
+  @media (max-width: 600px) {
+    .logo {
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background-color: white;
+    }
+    #gshow {
+      display: none;
+    }
+    #dropz {
+      display: none;
+    }
+    #quem {
+      display: none;
+    }
+    #receitas {
+      display: none;
+    }
+    #cartola {
+      display: none;
+    }
+    #g1 {
+      position: fixed;
+      top: 92px;
+      left: 10px;
+    }
+    #o-globo {
+      position: fixed;
+      top: 92px;
+      left: 15%;
+    }
+    #valor {
+      position: fixed;
+      top: 92px;
+      left: 42%;
+    }
+    #globoplay {
+      position: fixed;
+      top: 92px;
+      right: 15%;
+    }
+    #ge {
+      position: fixed;
+      right: 10px;
+      top: 92px;
+    }
+    .menu {
+      width: 100%;
+      display: flex;
+      justify-items: space-between;
+      position: fixed;
+      left: 0px;
+      top: 80px;
+      background-color: white;
+    }
+    .menu-opcoes {
+      width: 100%;
+      height: 100%;
+      flex-direction: row;
+      position: fixed;
+      left: 10px;
+      right: 10px;
+      top: 80px;
+    }
+    .conteudo {
+      flex-direction: column;
+      width: 100%;
+      margin: 103px 0 0 0;
+    }
+    .container {
+      flex-direction: column;
+      width: 100%;
+    }
+    .principal {
+      width: 100%;
+    }
+    .principal h1 {
+      font-size: 32px;
+    }
+    .secundaria h2 {
+      font-size: 18px;
+    }
+    .container div {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: solid 1px #f4f5f6;
+      padding-bottom: 20px;
+    }
+    .container h1 {
+      font-size: 18px;
+    }
+    .container h2 {
+      font-size: 14px;
+    }
+    .container img {
+      width: 120px;
+      height: 67px;
+    }
+    .container-meio {
+      flex-direction: column;
+      width: 100%;
+    }
+    .container-meio div {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: solid 1px #f4f5f6;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin: 0;
+    }
+    .container-meio img {
+      width: 120px;
+      height: 67px;
+    }
+    .meio {
+      margin: 0;
+      padding: 0;
+    }
+    .container-meio h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .container-meio h2 {
+      font-size: 14px;
+    }
+    .direita {
+      margin: 0;
+    }
+    .container-direita img {
+      width: 120px;
+      height: 67px;
+    }
+    .container-direita h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .container-direita h2 {
+      font-size: 14px;
+    }
+    .container-direita div {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: solid 1px #f4f5f6;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin: 0;
+    }
+  }
+  
